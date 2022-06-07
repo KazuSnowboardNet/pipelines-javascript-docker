@@ -10,9 +10,9 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'e12ffbde-ddf4-4ac7-8aea-66e9e4419e23'
-  imageRepository: 'apctokitadepoistestcr001'
-  containerRegistry: 'apctokitadepoistestcr001.azurecr.io'
+  dockerRegistryServiceConnection: 'bbc00546-6924-4a6f-981e-eb246a6761fb'
+  imageRepository: 'mydocimage1'
+  containerRegistry: 'devsecopscontainer212.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
   tag: '$(Build.BuildId)'
 
